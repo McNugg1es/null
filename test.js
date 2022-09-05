@@ -80,3 +80,54 @@ console.log ("Here is the story: \nOnce upon a time there was a Data Scientist c
 */
 
 
+/*
+var days = 200;
+var hours= 3.5;
+var coding = "It sure is!";
+console.log("Days to summer:");
+console.log(days);
+console.log("Hours to lunch:");
+console.log(hours);
+console.log("Coding is fun:");
+console.log(coding);
+*/
+
+
+/*
+var ps = require("prompt-sync");
+var prompt = ps(); 
+
+let number = prompt ("Give a number!")
+if (number >= 0){ 
+console.log (parseInt(number))
+}
+*/
+
+
+/*
+var ps = require("prompt-sync");
+var prompt = ps(); 
+
+let number = prompt ("Give a number!")
+if (number >= 0){ 
+console.log (parseFloat(number))
+}
+*/
+
+
+
+var ps = require("prompt-sync");
+var prompt = ps();
+
+let anwserTruth = prompt("give me the truth: ")
+{
+if (anwserTruth == "true") {
+console.log("true")
+}
+else if (anwserTruth == "false") {
+    console.log("false")
+}
+else {
+    console.log("true")
+}
+}
