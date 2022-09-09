@@ -115,7 +115,7 @@ console.log (parseFloat(number))
 */
 
 
-
+/*
 var ps = require("prompt-sync");
 var prompt = ps();
 
@@ -131,3 +131,37 @@ else {
     console.log("true")
 }
 }
+*/
+
+
+/*
+var ps = require("prompt-sync");
+var prompt = ps(); 
+
+let string = prompt ("Give a string: ")
+
+let number = prompt ("Give a integer: ")
+if (number >= 0){ 
+console.log (parseInt(number))
+}
+
+let numBer = prompt ("Give a double: ")
+if (numBer >= 0){ 
+console.log (parseFloat(numBer))
+}
+
+let anwserTruth = prompt("give me the truth: ")
+{
+if (anwserTruth == "true") {
+console.log("true")
+}
+else if (anwserTruth == "false") {
+    console.log("false")
+}
+else {
+    console.log("true")
+}
+} 
+*/
+
+
